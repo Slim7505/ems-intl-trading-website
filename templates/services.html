@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m with context %}
+{% block content %}
+{% set P = t.services %}
+{% include "_pagehead.html" %}
+<section class="section section-flush">
+  <div class="wrap services">
+    {% for s in P["items"] %}
+    <article class="service reveal" id="{{ s.id }}">
+      <div class="service-media">{{ m.img(s.img, "", "cover") }}</div>
+      <div class="service-body">
+        <h2 class="h2">{{ s.title }}</h2>
+        <p>{{ s.text }}</p>
+        <ul class="ticks">{% for p in s.points %}<li>{{ p }}</li>{% endfor %}</ul>
+        <a class="link-arrow" href="{{ path('contact') }}?topic={{ loop.index0 if loop.index0 < 3 else 4 }}">{{ t.ui.cta_contact }} {{ m.icon("arrow", "ico ico-sm") }}</a>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% include "_cta.html" %}
+{% endblock %}

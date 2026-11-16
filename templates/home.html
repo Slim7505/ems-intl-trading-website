@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m with context %}
+{% block content %}
+{% set h = t.home %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">{{ h.eyebrow }}</p>
+      <h1 class="display">{{ h.heading }}</h1>
+      <p class="lead">{{ h.lead }}</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="{{ path('products') }}">{{ t.ui.cta_products }} {{ m.icon("arrow", "ico ico-sm") }}</a>
+        <a class="btn btn-ghost" href="{{ path('contact') }}">{{ t.ui.cta_contact }}</a>
+      </div>
+      <div class="certs" aria-label="{{ h.certs_label }}">
+        {% for c in h.certs %}<span class="cert">{{ m.icon("check", "ico ico-xs") }}{{ c }}</span>{% endfor %}
+      </div>
+    </div>
+    <div class="hero-art">
+      <div class="tile tile-hero" aria-hidden="true"></div>
+      <div class="hero-photo">{{ m.img("salad", h.hero_alt, "cover", "eager") }}</div>
+      <div class="hero-chip hero-chip-a">{{ m.img("stuffed-dates", "", "cover") }}</div>
+      <div class="hero-chip hero-chip-b">{{ m.img("harissa", "", "cover") }}</div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-mission">
+  <div class="wrap mission">
+    <p class="eyebrow">{{ h.mission_eyebrow }}</p>
+    <p class="mission-quote">“{{ h.mission }}”</p>
+    <p class="lead-sm">{{ h.mission_text }}</p>
+  </div>
+</section>
+
+<section class="section section-sand">
+  <div class="wrap">
+    <header class="section-head section-head-row">
+      <div><p class="eyebrow">{{ h.cats_eyebrow }}</p><h2 class="h2">{{ h.cats_heading }}</h2></div>
+      <a class="link-arrow" href="{{ path('products') }}">{{ t.ui.nav.products }} {{ m.icon("arrow", "ico ico-sm") }}</a>
+    </header>
+    <ul class="bento">
+      {% for c in h.cats %}
+      <li class="bento-item reveal"><a href="{{ path('products') }}#{{ c.id }}">
+        <div class="bento-media">{{ m.img(c.img, "", "cover") }}</div>
+        <div class="bento-body"><h3 class="h3">{{ c.title }}</h3><p>{{ c.text }}</p></div>
+      </a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <header class="section-head"><p class="eyebrow">{{ h.services_eyebrow }}</p><h2 class="h2">{{ h.services_heading }}</h2></header>
+    <ul class="svc">
+      {% for s in h.services %}
+      <li class="svc-item reveal"><span class="svc-ico">{{ m.icon(s.icon) }}</span><h3 class="h4">{{ s.title }}</h3><p>{{ s.text }}</p></li>
+      {% endfor %}
+    </ul>
+    <p class="center"><a class="link-arrow" href="{{ path('services') }}">{{ t.ui.nav.services }} {{ m.icon("arrow", "ico ico-sm") }}</a></p>
+  </div>
+</section>
+
+<section class="brand-strip" aria-label="{{ h.brands_eyebrow }}">
+  <div class="wrap">
+    <p class="eyebrow eyebrow-light">{{ h.brands_eyebrow }}</p>
+    <ul>{% for b in h.brands %}<li>{{ b }}</li>{% endfor %}</ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap story">
+    <div class="story-photo reveal">{{ m.img("office", "", "cover") }}</div>
+    <div class="story-body reveal">
+      <p class="eyebrow">{{ h.story_eyebrow }}</p>
+      <blockquote class="quote"><p>{{ h.story_quote }}</p><footer><strong>{{ t.company.president }}</strong><span>{{ t.company.president_title }}</span></footer></blockquote>
+      <a class="link-arrow" href="{{ path('about') }}">{{ h.story_link }} {{ m.icon("arrow", "ico ico-sm") }}</a>
+    </div>
+  </div>
+</section>
+{% include "_cta.html" %}
+{% endblock %}

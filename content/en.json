@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "site_name": "EMS International Trading Co., Ltd.",
+    "pages": {
+      "home": {"title": "EMS International Trading Co., Ltd. | Organic & Halal foods from the Mediterranean", "description": "Since 2012, EMS International Trading has imported organic and halal foods from Tunisia, the Mediterranean, Russia and Belarus — and distributed them across Japan and Asia."},
+      "about": {"title": "About us | EMS International Trading Co., Ltd.", "description": "Our mission, a message from our president, core values, company profile and overseas offices."},
+      "products": {"title": "Products & brands | EMS International Trading Co., Ltd.", "description": "MAKFA pasta and flour, natural halal cheese, honey, confectionery, Deglet Nour dates, spices and harissa, tahini, extra virgin olive oil, gourmet tuna, essential oils and gift boxes."},
+      "services": {"title": "Services | EMS International Trading Co., Ltd.", "description": "Wholesale, OEM and private label, halal catering, and business travel support."},
+      "news": {"title": "News & history | EMS International Trading Co., Ltd.", "description": "FOODEX JAPAN exhibitions, our Omotesando shop, new products and company milestones since 2012."},
+      "contact": {"title": "Contact | EMS International Trading Co., Ltd.", "description": "Contact EMS International Trading about wholesale, OEM, catering or our products."},
+      "privacy": {"title": "Privacy policy | EMS International Trading Co., Ltd.", "description": "How EMS International Trading Co., Ltd. handles personal information."}
+    }
+  },
+  "ui": {
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "close": "Close",
+    "language": "Language",
+    "nav": {"home": "Home", "about": "About", "products": "Products", "services": "Services", "news": "News", "contact": "Contact", "privacy": "Privacy policy"},
+    "cta_contact": "Contact us",
+    "cta_products": "Explore products",
+    "map": "Open map",
+    "back_top": "Back to top",
+    "footer_tagline": "Importer and distributor of organic & halal products from around the world — since 2012.",
+    "footer_company": "Company",
+    "footer_explore": "Explore",
+    "footer_offices": "Overseas offices",
+    "rights": "All rights reserved.",
+    "tel": "Tel",
+    "fax": "Fax",
+    "email": "Email",
+    "hours": "Hours",
+    "address": "Address",
+    "origin": "Origin"
+  },
+  "company": {
+    "name": "EMS International Trading Co., Ltd.",
+    "address": "Yokoyama Bldg. 103, 13-5 Ise-cho, Kawasaki-ku, Kawasaki-shi, Kanagawa 210-0805, Japan",
+    "hours": "Weekdays 9:00–17:30",
+    "president": "Eri Chuman",
+    "president_title": "President & Representative Director"
+  },
+  "offices": [
+    {"name": "Belarus office", "org": "Ekaterina A. Lebedeva", "city": "Minsk, Republic of Belarus"},
+    {"name": "India office", "org": "All Naturals Trading", "city": "New Delhi, India", "url": "https://www.allnaturals.in"}
+  ],
+  "home": {
+    "eyebrow": "Organic & Halal · since 2012",
+    "heading": "The Mediterranean table, brought to Japan",
+    "lead": "EMS International Trading imports high-quality organic and halal foods from Tunisia, the Mediterranean, Russia, Belarus and the CIS — and distributes them across Japan and Asia, at prices people can enjoy every day.",
+    "hero_alt": "A fresh Mediterranean salad with tomatoes and greens",
+    "certs_label": "Certified products",
+    "certs": ["Halal", "Organic (USDA · EU · ECOCERT)", "JAS", "Kosher"],
+    "mission_eyebrow": "Our mission",
+    "mission": "To import and provide high-quality food at affordable prices.",
+    "mission_text": "We buy directly from producers, without intermediaries, and work closely with every partner to guarantee quality and great taste — and to build relationships that respect each other's food culture and values.",
+    "cats_eyebrow": "What we import",
+    "cats_heading": "From pantry staples to gourmet gifts",
+    "cats": [
+      {"img": "wheat", "id": "pasta", "title": "Pasta, grains & flour", "text": "MAKFA — Russia's number-one pasta maker."},
+      {"img": "dates-pack", "id": "dates", "title": "Premium Deglet Nour dates", "text": "\"The Dates\" — the king of dates from Tunisia."},
+      {"img": "harissa", "id": "spices", "title": "Spices, herbs & harissa", "text": "North African blends that make cooking easy."},
+      {"img": "tuna", "id": "tuna", "title": "Gourmet tuna fillets", "text": "Hand-packed yellowfin fillets from Tunisia."},
+      {"img": "gift-boxes", "id": "gifts", "title": "Gift boxes", "text": "Seasonal sets for oseibo, Easter and Christmas."},
+      {"img": "grilled-salad", "id": "organic", "title": "Organic pantry", "text": "Olive oils, vinegars, olives and preserves."}
+    ],
+    "services_eyebrow": "How we work with you",
+    "services_heading": "More than an importer",
+    "services": [
+      {"icon": "truck", "title": "Wholesale", "text": "Department stores, supermarkets, organic retailers, restaurants and halal shops."},
+      {"icon": "tag", "title": "OEM & private label", "text": "Product development with our partners in Spain and Tunisia."},
+      {"icon": "plate", "title": "Halal catering", "text": "Authentic Tunisian halal dishes for events and offices."},
+      {"icon": "plane", "title": "Business travel support", "text": "Flights, hotels and private tours through our travel partners."}
+    ],
+    "brands_eyebrow": "Exclusive & partner brands",
+    "brands": ["Delice Med", "MAKFA", "El Khabia", "Biosanare", "UNICONF", "HONEY WAY", "bonfesto", "Kartago", "All Naturals"],
+    "story_eyebrow": "A message from our president",
+    "story_quote": "Imported goods are becoming part of everyday life — yet so many wonderful products are still unknown in Japan. We want to make them closer and more affordable for everyone.",
+    "story_link": "About EMS",
+    "cta_heading": "Let's bring something delicious to Japan",
+    "cta_text": "Wholesale, private label, catering or a product question — we would be glad to hear from you."
+  },
+  "about": {
+    "eyebrow": "About us",
+    "heading": "Delicious, enjoyable, happy",
+    "lead": "Founded in 2012, EMS International Trading imports high-quality organic and halal food, cosmetics and more — mainly from the Mediterranean, Russia, Belarus and the CIS — and supplies them to Japan and other Asian countries.",
+    "mission_heading": "Our mission is simple",
+    "mission": "To import and provide high-quality food at affordable prices.",
+    "mission_text": "As the authorised importer and distributor of EL KHABIA and BIOSANARE products, and the exclusive importer of many well-loved brands, we work closely with our partners to guarantee quality and taste.",
+    "message_heading": "A message from our president",
+    "message": [
+      "Imported products are becoming indispensable to our daily lives. Goods from many countries feel closer than ever — yet there are still so many hidden gems waiting to be discovered.",
+      "Our goal is to bring them to you, closer and more affordably.",
+      "What we value most is careful communication with each of our partners abroad. By understanding one another's culture, food habits and values, we practise trade that is sustainable for everyone.",
+      "We will keep working so that our products bring you something delicious, enjoyable and happy."
+    ],
+    "values_heading": "Core values",
+    "values": [
+      {"title": "Quality", "text": "We are committed to reliable service and products. In every step — from development and packaging to shipping, delivery and support — our goal is to meet and exceed our customers' expectations."},
+      {"title": "Innovation", "text": "Our customers are at the centre of every idea. We keep finding better ways to source, deliver and serve."},
+      {"title": "Integrity", "text": "We act with honesty and integrity, and never compromise the truth."},
+      {"title": "Customer service excellence", "text": "We are passionate about meeting our customers' needs and honouring every commitment — and proud of it."}
+    ],
+    "profile_heading": "Company profile",
+    "profile": [
+      {"k": "Company name", "v": "EMS International Trading Co., Ltd. (EMSインターナショナルトレーディング株式会社)"},
+      {"k": "Founded", "v": "2012"},
+      {"k": "Address", "v": "Yokoyama Bldg. 103, 13-5 Ise-cho, Kawasaki-ku, Kawasaki-shi, Kanagawa 210-0805, Japan"},
+      {"k": "Telephone", "v": "+81-44-589-4031"},
+      {"k": "Fax", "v": "+81-44-589-4041"},
+      {"k": "Email", "v": "info@ems-intl-trading.com"},
+      {"k": "Representative", "v": "Eri Chuman, President & Representative Director"},
+      {"k": "Business", "v": "Import, wholesale and retail of organic and halal foods, cosmetics and lifestyle goods; OEM and private label; halal catering; travel support"}
+    ],
+    "offices_heading": "Overseas offices"
+  },
+  "products": {
+    "eyebrow": "Products & brands",
+    "heading": "Good food, honestly sourced",
+    "lead": "We source directly from producers across the Mediterranean (Tunisia, Morocco, Spain, France, Italy, Greece), Russia, Belarus and India — safe, high-quality products for a changing market.",
+    "jump": "Categories",
+    "price_note": "For prices, availability and wholesale terms, please contact us.",
+    "categories": [
+      {"id": "pasta", "img": "wheat", "title": "Pasta, grains & flour", "brand": "MAKFA", "origin": "Russia", "text": "MAKFA is the largest maker of pasta, wheat flour and grains in Russia and the CIS, operating in 35 countries and number one on the Russian pasta market. Its premium pasta is made from the finest durum wheat semolina; its flour comes from wheat grown on the company's own farms without relying on pesticides or chemical fertilisers.", "items": ["Durum wheat pasta", "Buckwheat, barley and millet", "Premium wheat flour", "Cereals with no added sugar or additives", "Couscous (incl. 3 kg catering size)"]},
+      {"id": "cheese", "img": "", "title": "Natural halal cheese", "brand": "bonfesto · cooking", "origin": "Italy", "text": "Preservative-free soft and semi-hard cheeses made with advanced Italian technology. Every bonfesto product is halal certified — for everyday use and professional kitchens alike. The cooking range is made for cafés, bars and restaurant chefs.", "items": ["bonfesto — retail", "cooking — food service"]},
+      {"id": "honey", "img": "", "title": "Honey", "brand": "HONEY WAY", "origin": "Belarus", "text": "A modern, fast-growing honey company from Belarus, producing natural honey products for the food industry with the best of its knowledge and technology.", "items": ["Natural honey", "Honey products for food manufacturing"]},
+      {"id": "sweets", "img": "", "title": "Confectionery", "brand": "UNICONF", "origin": "Russia", "text": "Ranked 17th in the global \"Top 100 Candy Companies\", with 19 factories and 11 logistics centres across Russia and a heritage of some 200 years. Its signature natural milk chocolate dates from 1966.", "items": ["Milk chocolate", "Chocolates and sweets"]},
+      {"id": "dates", "img": "stuffed-dates", "title": "Premium Deglet Nour dates", "brand": "Delice Med", "origin": "Tunisia", "text": "Deglet Nour — traditionally known as \"the light of the dates\" — is called the king of dates for its natural golden colour, distinctive flavour and soft flesh. We offer it plain, stuffed, and as 100% date syrup (halal, USDA and ECOCERT organic).", "items": ["Deglet Nour dates (100 g / 200 g)", "Stuffed dates", "Date syrup"]},
+      {"id": "spices", "img": "harissa", "title": "Spices, herbs & harissa", "brand": "El Khabia", "origin": "Tunisia", "text": "Ready-mixed blends that make professional flavours easy at home. Harissa — North Africa's all-purpose condiment of chili, olive oil and spices — alongside halal-certified single spices and herbs.", "items": ["Harissa & grilled salad", "Ras el hanout (Tunisian 7 spices)", "Couscous, chicken, fish, grill, BBQ and sausage blends", "Cumin, coriander, turmeric", "Oregano, rosemary, thyme, basil, fennel"]},
+      {"id": "tahini", "img": "", "title": "Tahini", "brand": "El Khabia", "origin": "Tunisia", "text": "A rich paste of 100% white sesame, slightly looser than Japanese neri-goma and easy to use in cooking and baking — for hummus, dressings, dips and shira-ae. Halal certified.", "items": ["Tahini 400 g"]},
+      {"id": "olive-oil", "img": "grilled-salad", "title": "Extra virgin olive oil & organic pantry", "brand": "Arisfa farm · Delice Med", "origin": "Tunisia · Spain", "text": "Our extra virgin olive oil comes from 100% Tunisian olives grown at the Arisfa farm at the foot of the Zaghouan mountains — more than 21,000 olive trees on 4,855,200 m² of rugged, rocky land. Alongside it: EU-organic sherry and Pedro Ximénez vinegars, organic olives and preserves.", "items": ["Extra virgin olive oil (BIO)", "Sherry vinegar (EU organic)", "Pedro Ximénez vinegar (EU organic)", "Green and black olives", "Jams, beans and vegetables"]},
+      {"id": "tuna", "img": "tuna", "title": "Gourmet tuna fillets", "brand": "Kartago", "origin": "Tunisia", "text": "Only the rare belly cut of small yellowfin tuna, processed entirely by hand to a traditional Tunisian recipe — nothing like supermarket tuna. Halal and Kosher certified.", "items": ["In water", "In olive oil", "Olive oil with oregano", "Olive oil with cayenne pepper", "Olive oil with sun-dried tomato"]},
+      {"id": "oils", "img": "", "title": "Essential oils", "brand": "All Naturals", "origin": "India", "text": "Pure essential oils for aromatherapy, from the ethical brand EMS co-founded in India.", "items": ["Lavender, lemon, lemongrass, eucalyptus", "Rosemary, peppermint, geranium, bergamot mint", "Ylang-ylang, jasmine, frankincense, patchouli", "Neem, niaouli, juniper berry, bitter orange peel", "Spanish marjoram, holy basil"]},
+      {"id": "gifts", "img": "gift-boxes", "title": "Gift boxes", "brand": "Delice Med", "origin": "", "text": "Seasonal gift sets of our favourite products — and custom boxes for corporate gifts.", "items": ["Oseibo & ochugen (year-end and summer gifts)", "Easter", "Christmas", "Superfood set"]},
+      {"id": "lifestyle", "img": "", "title": "Cosmetics, amenities & lifestyle", "brand": "Biosanare and partners", "origin": "Mediterranean", "text": "Beyond food, we supply organic cosmetics and halal amenities for hotels, restaurants and airlines, together with interior goods and fashion accessories.", "items": ["Organic face, body, hair and foot care", "Hotel, restaurant and airline amenities", "Kitchen & dining, interior décor, art", "Fashion accessories"]}
+    ],
+    "brands_heading": "Our brands",
+    "brands": [
+      {"name": "Delice Med", "text": "Les délices de la Méditerranée — EMS's own brand, since 2012."},
+      {"name": "El Khabia", "text": "Tunisian spices, harissa and tahini — authorised importer."},
+      {"name": "Biosanare", "text": "Organic products — authorised importer."},
+      {"name": "MAKFA", "text": "Russia's leading pasta, flour and grain maker."},
+      {"name": "UNICONF", "text": "Russian confectionery with a 200-year heritage."},
+      {"name": "HONEY WAY", "text": "Natural honey from Belarus."},
+      {"name": "bonfesto", "text": "Natural halal cheese."},
+      {"name": "Kartago", "text": "Gourmet tuna fillets from Tunisia."},
+      {"name": "All Naturals", "text": "Affordable wellness — founded by EMS in India."}
+    ]
+  },
+  "services": {
+    "eyebrow": "Services",
+    "heading": "Partners from sourcing to the table",
+    "lead": "We respond to changing consumer needs with organic and halal food, lifestyle goods and the services around them.",
+    "items": [
+      {"id": "wholesale", "img": "warehouse", "title": "Wholesale", "text": "We buy directly from producers, without intermediaries, so we can offer the best products at the best prices. We supply department stores, supermarkets, organic retailers, wholesalers, restaurants and halal shops across Japan.", "points": ["Organic and halal specialists", "Direct from producers", "Catering sizes available"]},
+      {"id": "oem", "img": "spices", "title": "OEM & private label", "text": "Working with the product development teams of our partner companies in Spain and Tunisia, we create OEM and private-label products for specific customer needs — and build sustainable business together.", "points": ["Product development with partner makers", "Packaging and labelling for Japan", "Halal and organic certification support"]},
+      {"id": "catering", "img": "catering", "title": "Halal catering", "text": "Healthy, fresh and delicious food makes a real difference to how people feel and work. Our catering serves authentic halal dishes made with ingredients from the Mediterranean, mainly Tunisia, backed by our experience and hospitality.", "points": ["Halal jerk chicken rice", "Brik — Tunisian spring rolls", "Energy date smoothie", "Couscous"]},
+      {"id": "travel", "img": "skyline", "title": "Business travel & private tours", "text": "Through our travel agency partners we arrange domestic and international flights and hotels for business trips, and plan private tours — from luxury holidays to adventure trips — with local partner operators.", "points": ["Flights and hotels", "Business trip support", "Private tour planning"]}
+    ]
+  },
+  "news": {
+    "eyebrow": "News & history",
+    "heading": "Our journey so far",
+    "lead": "Exhibitions, shops, new products and milestones since 2012.",
+    "items": [
+      {"date": "March 2018", "title": "FOODEX JAPAN 2018", "text": "International Food and Beverage Exhibition at Makuhari Messe, 6–9 March.", "img": "foodex-2018"},
+      {"date": "March 2016", "title": "FOODEX JAPAN 2016", "text": "Exhibited in the Tunisia section with LEADER FOOD PROCESS (EL KHABIA), 8–11 March at Makuhari Messe."},
+      {"date": "February 2016", "title": "Office moved to Kawasaki", "text": "From 1 February 2016 we operate from our new office at Ise-cho, Kawasaki."},
+      {"date": "2015", "title": "New gourmet products", "text": "Kartago tuna fillets in five styles, El Khabia tahini, Deglet Nour date syrup and a 3 kg catering size of couscous joined our range."},
+      {"date": "2015", "title": "All Naturals launched in India", "text": "EMS co-founded All Naturals Trading in India — an ethical business creating fair work for small producers and women, with pure, natural products and no animal testing."},
+      {"date": "2015", "title": "Delice Med app released", "text": "Our Delice Med app launched on iOS and Android."},
+      {"date": "March 2015", "title": "FOODEX JAPAN 2015", "text": "Booth 2B04, Hall 2, Makuhari Messe, 3–6 March.", "img": "foodex-2015"},
+      {"date": "2014", "title": "Omotesando shop opens", "text": "The only shop in Japan carrying the full BIOSANARE range opened inside M de Jour, GYRE B1F, Jingumae, Shibuya."},
+      {"date": "March 2013", "title": "FOODEX JAPAN 2013", "text": "Our first FOODEX, held with the support of CEPEX and the Embassy of Tunisia, 5–8 March."},
+      {"date": "2012", "title": "EMS International Trading founded", "text": "Founded to bring high-quality Mediterranean food to Japan at affordable prices."}
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "heading": "We'd love to hear from you",
+    "lead": "Write to us in Japanese or English about wholesale, private label, catering or any of our products.",
+    "direct_heading": "Contact details",
+    "form_heading": "Send an enquiry",
+    "form_note": "When you press the button, your email app opens with your message ready to send. Nothing is stored on this website.",
+    "topic": "Topic",
+    "topics": ["Wholesale", "OEM / private label", "Halal catering", "Products", "Travel support", "Other"],
+    "name": "Name",
+    "company": "Company",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "required": "Required",
+    "submit": "Write the email",
+    "subject_prefix": "Enquiry",
+    "error": "Please fill in the required fields."
+  },
+  "privacy": {
+    "eyebrow": "Privacy policy",
+    "heading": "Privacy policy",
+    "intro": ["EMS International Trading Co., Ltd. (\"we\") recognises the importance of personal information and complies with the Act on the Protection of Personal Information and related laws and guidelines."],
+    "sections": [
+      {"title": "1. Purpose of use", "body": ["We use personal information only to the extent necessary for the following purposes:"], "list": ["Responding to enquiries and requests for quotes and samples", "Carrying out transactions, shipping and invoicing", "Providing information about our products, services and events"]},
+      {"title": "2. Provision to third parties", "body": ["We do not provide personal information to third parties without the individual's consent, except where permitted by law."]},
+      {"title": "3. Security", "body": ["We take necessary and appropriate measures to prevent leakage, loss or damage of personal information."]},
+      {"title": "4. Disclosure and correction", "body": ["If you request disclosure, correction or deletion of your personal information, we will respond promptly after confirming your identity."]},
+      {"title": "5. This website", "body": ["This website does not use cookies, analytics or advertising trackers. The contact form opens your own email app and does not send or store data on our server. Web fonts are loaded from Google Fonts, which receives your IP address as part of normal web requests."]}
+    ],
+    "contact_heading": "Contact",
+    "contact_text": "For questions about our handling of personal information, please contact:"
+  },
+  "notfound": {
+    "title": "Page not found",
+    "text": "The page you are looking for may have moved. Please choose a language to continue."
+  }
+}

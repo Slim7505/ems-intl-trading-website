@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m with context %}
+{% block content %}
+{% set P = t.products %}
+{% include "_pagehead.html" %}
+<nav class="jump" aria-label="{{ P.jump }}"><div class="wrap jump-inner"><ul>{% for c in P.categories %}<li><a href="#{{ c.id }}">{{ c.title }}</a></li>{% endfor %}</ul></div></nav>
+<section class="section section-flush">
+  <div class="wrap products">
+    {% for c in P.categories %}
+    <article class="product{% if c.img %} has-img{% endif %} reveal" id="{{ c.id }}">
+      {% if c.img %}<div class="product-media">{{ m.img(c.img, c.title, "cover") }}</div>{% else %}<div class="product-media product-tile" aria-hidden="true"><span>{{ c.brand }}</span></div>{% endif %}
+      <div class="product-body">
+        <div class="product-meta"><span class="pill">{{ c.brand }}</span>{% if c.origin %}<span class="pill pill-soft">{{ t.ui.origin }} · {{ c.origin }}</span>{% endif %}</div>
+        <h2 class="h3">{{ c.title }}</h2>
+        <p>{{ c.text }}</p>
+        <ul class="ticks">{% for i in c["items"] %}<li>{{ i }}</li>{% endfor %}</ul>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  <div class="wrap"><p class="note">{{ P.price_note }} <a href="{{ path('contact') }}?topic=3">{{ t.ui.cta_contact }} →</a></p></div>
+</section>
+<section class="section section-sand">
+  <div class="wrap">
+    <header class="section-head"><h2 class="h2">{{ P.brands_heading }}</h2></header>
+    <ul class="brand-cards">{% for b in P.brands %}<li class="reveal"><h3 class="brand-name-lg">{{ b.name }}</h3><p>{{ b.text }}</p></li>{% endfor %}</ul>
+  </div>
+</section>
+{% include "_cta.html" %}
+{% endblock %}

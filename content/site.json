@@ -1,0 +1,119 @@
+{
+  "languages": [
+    "ja",
+    "en"
+  ],
+  "pages": [
+    "home",
+    "about",
+    "products",
+    "services",
+    "news",
+    "contact",
+    "privacy"
+  ],
+  "nav": [
+    "home",
+    "about",
+    "products",
+    "services",
+    "news",
+    "contact"
+  ],
+  "base_url": "https://ems-intl-trading.com",
+  "cname": "ems-intl-trading.com",
+  "email": "info@ems-intl-trading.com",
+  "tel": "+81-44-589-4031",
+  "tel_local": "044-589-4031",
+  "fax": "+81-44-589-4041",
+  "fax_local": "044-589-4041",
+  "postal_code": "210-0805",
+  "founded": "2012",
+  "map": "https://www.google.com/maps/search/?api=1&query=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E5%B7%9D%E5%B4%8E%E5%B8%82%E5%B7%9D%E5%B4%8E%E5%8C%BA%E4%BC%8A%E5%8B%A2%E7%94%BA13-5",
+  "lang_label": {
+    "ja": "日本語",
+    "en": "English"
+  },
+  "lang_short": {
+    "ja": "JA",
+    "en": "EN"
+  },
+  "og_locale": {
+    "ja": "ja_JP",
+    "en": "en_US"
+  },
+  "images": {
+    "catering": [
+      1495,
+      300
+    ],
+    "chickpea-stew": [
+      410,
+      265
+    ],
+    "couscous-spice": [
+      379,
+      380
+    ],
+    "dates-pack": [
+      539,
+      540
+    ],
+    "foodex-2015": [
+      750,
+      180
+    ],
+    "foodex-2018": [
+      1500,
+      500
+    ],
+    "gift-boxes": [
+      640,
+      480
+    ],
+    "grilled-salad": [
+      539,
+      540
+    ],
+    "harissa": [
+      380,
+      379
+    ],
+    "office": [
+      1600,
+      1103
+    ],
+    "oregano": [
+      539,
+      540
+    ],
+    "salad": [
+      1400,
+      450
+    ],
+    "skyline": [
+      1600,
+      282
+    ],
+    "spices": [
+      1400,
+      450
+    ],
+    "stuffed-dates": [
+      640,
+      412
+    ],
+    "tuna": [
+      380,
+      380
+    ],
+    "warehouse": [
+      1600,
+      360
+    ],
+    "wheat": [
+      425,
+      369
+    ]
+  }
+}

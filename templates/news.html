@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m with context %}
+{% block content %}
+{% set P = t.news %}
+{% include "_pagehead.html" %}
+<section class="section section-flush">
+  <div class="wrap">
+    <ol class="news">
+      {% for n in P["items"] %}
+      <li class="news-item reveal">
+        <time class="news-date">{{ n.date }}</time>
+        <div class="news-body"><h2 class="h3">{{ n.title }}</h2><p>{{ n.text }}</p>{% if n.img is defined %}<div class="news-img">{{ m.img(n.img, n.title, "cover") }}</div>{% endif %}</div>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+{% include "_cta.html" %}
+{% endblock %}

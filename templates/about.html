@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m with context %}
+{% block content %}
+{% set P = t.about %}
+{% include "_pagehead.html" %}
+<section class="section section-flush">
+  <div class="wrap">
+    <div class="wide-photo">{{ m.img("office", "", "cover", "eager") }}</div>
+  </div>
+</section>
+<section class="section section-mission">
+  <div class="wrap mission">
+    <p class="eyebrow">{{ P.mission_heading }}</p>
+    <p class="mission-quote">“{{ P.mission }}”</p>
+    <p class="lead-sm">{{ P.mission_text }}</p>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap two-col">
+    <div>
+      <h2 class="h2">{{ P.message_heading }}</h2>
+      <p class="signature-top"><strong>{{ t.company.president }}</strong> · {{ t.company.president_title }}</p>
+    </div>
+    <div class="prose">{% for p in P.message %}<p>{{ p }}</p>{% endfor %}</div>
+  </div>
+</section>
+<section class="section section-sand">
+  <div class="wrap">
+    <header class="section-head"><h2 class="h2">{{ P.values_heading }}</h2></header>
+    <ul class="values">{% for v in P["values"] %}<li class="value reveal"><span class="value-num">{{ loop.index }}</span><h3 class="h3">{{ v.title }}</h3><p>{{ v.text }}</p></li>{% endfor %}</ul>
+  </div>
+</section>
+<section class="section" id="profile">
+  <div class="wrap two-col">
+    <div>
+      <h2 class="h2">{{ P.profile_heading }}</h2>
+      <p><a class="link-arrow" href="{{ site.map }}" rel="noopener" target="_blank">{{ m.icon("pin", "ico ico-sm") }} {{ t.ui.map }}</a></p>
+    </div>
+    <dl class="facts">{% for r in P.profile %}<div><dt>{{ r.k }}</dt><dd>{{ r.v }}</dd></div>{% endfor %}</dl>
+  </div>
+</section>
+<section class="section section-flush">
+  <div class="wrap">
+    <h2 class="h3 offices-h">{{ P.offices_heading }}</h2>
+    <ul class="offices">
+      {% for o in t.offices %}<li class="office-card">{{ m.icon("globe") }}<div><strong>{{ o.name }}</strong><span>{{ o.org }}</span><span>{{ o.city }}</span>{% if o.url is defined %}<a href="{{ o.url }}" rel="noopener" target="_blank">{{ o.url|replace("https://", "") }} ↗</a>{% endif %}</div></li>{% endfor %}
+    </ul>
+  </div>
+</section>
+{% include "_cta.html" %}
+{% endblock %}
